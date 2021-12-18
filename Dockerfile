@@ -1,4 +1,4 @@
-FROM node:14.17.6-alpine3.13
+FROM node:fermium-alpine3.13
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
